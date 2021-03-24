@@ -115,7 +115,7 @@ function createMap(plates,earthquakes) {
     let satellite = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}", {
         maxZoom: 18,
         id: "mapbox.satellite",
-        accessToken: API_KEY
+        accessToken: "pk.eyJ1Ijoia3A3Mi1oZWxsbyIsImEiOiJja203djhqZHEwenR2MzNvY2dkNWVpYXhzIn0.huhWBBxubpKODieYHX7-qw"
     });
 
     // var greyscale = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}", {
@@ -129,7 +129,7 @@ function createMap(plates,earthquakes) {
         maxZoom: 18,
         zoomOffset: -1,
         id: "mapbox/light-v9",
-        accessToken: API_KEY
+        accessToken: "pk.eyJ1Ijoia3A3Mi1oZWxsbyIsImEiOiJja203djhqZHEwenR2MzNvY2dkNWVpYXhzIn0.huhWBBxubpKODieYHX7-qw"
     });
 
     let outdoors = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
@@ -138,7 +138,7 @@ function createMap(plates,earthquakes) {
         maxZoom: 18,
         zoomOffset: -1,
         id: "mapbox/outdoors-v11",
-        accessToken: API_KEY
+        accessToken: "pk.eyJ1Ijoia3A3Mi1oZWxsbyIsImEiOiJja203djhqZHEwenR2MzNvY2dkNWVpYXhzIn0.huhWBBxubpKODieYHX7-qw"
     });
 
     // Define a baseMaps object to hold our base layers
