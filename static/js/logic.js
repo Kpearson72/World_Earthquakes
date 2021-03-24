@@ -159,7 +159,7 @@ function createMap(plates,earthquakes) {
         center: [
             37.10, -95.72
         ],
-        zoom: 3,
+        zoom: 4,
         layers: [satellite,  greyscale, outdoors, plates, earthquakes]
     });
 
